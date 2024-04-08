@@ -1,0 +1,207 @@
+/*General styling*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+    background-color: darkblue;
+}
+.container{
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 0px 40px;
+}
+.Titel{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menulistitem{
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    display: inline;
+    padding-left: 50px;
+    margin-top: 15px;
+}
+.menuitem{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.menuitem a{
+    color: white;
+    text-decoration: none;
+}
+.menuitem a:hover{
+    color: darkblue;
+}
+a.btn-primary{
+    display: inline-block;
+    text-decoration: none;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #050505;
+    transition: all 0.2s;
+}
+
+a.btn-primary:hover{
+    opacity: 0.6;
+}
+
+a.btn-secondary{
+    display: inline-block;
+    text-decoration: none;
+    background: #050505;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+a.btn-secondary:hover{
+    opacity: 0.6;
+}
+/*Navigation styling*/
+nav{
+    width: 100%;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav ul.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul.menu li{
+    margin-left: 20px;
+}
+
+nav ul.menu li a{
+    color: #050505;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Hero image */
+section.img{
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/afbeelding1.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1%;
+}
+
+section.img .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: #fff;
+}
+
+section.img .content h1{
+    font-size: 46px;
+    margin: 0px;
+}
+
+section.img .btn-group a{
+    margin: 10px;
+}
+
+/* Page */
+.page{
+    padding: 60px 0px;
+}
+
+/* Line up page */
+.boats .boten{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boats .boten .boot img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Input styling */
+.inputRow{
+    margin-bottom: 20px;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+}
+
+input[type=text]{
+    width: 300px;
+}
+
+input[type=submit]{
+    display: inline-block;
+    text-decoration: none;
+    background: #050505;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.2s;
+    border: none;
+}
+
+/* Footer */
+footer{
+    background-color: #050505;
+    width: 100%;
+    color: #fff;
+    padding: 60px 0px;
+}
+
+footer .container{
+    display: flex;
+    align-content: center;
+}
+
+footer .container .column{
+    margin-right: 120px;
+}
+
+footer .container .column p{
+    margin: 10px 0px;
+}
+
+footer .container .column ul{
+    padding: 0px;
+    list-style: none;
+}
+
+footer .container .column li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0px;
+}
